@@ -7,7 +7,7 @@ function App() {
   const [title, setTitle] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const API_URL = 'http://localhost:3000/api/tasks';
+  const API_URL = 'https://task-manager-rwcz.onrender.com/api/tasks';
 
   // Fetch all tasks
   const fetchTasks = async () => {
